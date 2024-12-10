@@ -1,1 +1,11 @@
-GEt http://localhost:3000/places?text=av governador valadares, betim, 1000
+### Origin place
+GET http://localhost:3000/places?text=rua silvio romero, 105, alvaro weyne
+
+### Destination Place
+GET http://localhost:3000/places?text=rua dona mendinha, 2051, alvaro weyne
+
+###
+@originId = ChIJf4CIwCBKxwcR4oc9WHkCsQk
+@destinationId = ChIJlc33RCFKxwcRfiLkKgCqbmQ
+
+GET http://localhost:3000/directions?originId={{originId}}&destinationId={{destinationId}}
