@@ -9,3 +9,20 @@ GET http://localhost:3000/places?text=rua dona mendinha, 2051, alvaro weyne
 @destinationId = ChIJlc33RCFKxwcRfiLkKgCqbmQ
 
 GET http://localhost:3000/directions?originId={{originId}}&destinationId={{destinationId}}
+
+###
+
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+  "name" : "Rota Principal",
+  "source_id": "{{originId}}",
+  "destination_id": "{{ destinationId }}"
+}
+
+###
+GET http://localhost:3000/routes
+
+### 
+GET http://localhost:3000/routes/6759e20f972ae0daca87c44a
