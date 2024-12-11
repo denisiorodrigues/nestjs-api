@@ -92,6 +92,12 @@ Agora só podemos executar a aplicaçção dentro do docker compose
 docker compose exec app bash
 ```
 
+Comando para executar a aplicação no terminal
+
+```bash
+npm run start:dev -- --entryFile=repl
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
