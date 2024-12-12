@@ -1,3 +1,33 @@
+# API de nagevação de Rotas
+
+## Tecnolgias utilizadas
+- Typescript
+- Nest.js
+- Prisma ORM
+- MongoDB
+- Rest
+- Google Maps API
+
+---
+
+## Funcionalidades
+- Capturar o Identificador de um lugar no google maps
+- Traçar trajeto entre 2 lugares
+- Pegar rotas cadastradas ou cadastrar novas rotas
+- Sreviço para armazenar posicionamento dos motorista em um trajeto
+
+--- 
+
+## Dicas
+
+Utlilizei a extensão *Peacock* para diferênciar os projetos abertos no vscode com cores
+
+(johnpapa.vscode-peacock)[https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock]
+
+
+___
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
