@@ -1,18 +1,18 @@
 ### Origin place
-GET http://localhost:3000/places?text=rua silvio romero, 105, alvaro weyne
+GET http://localhost:3001/places?text=rua silvio romero, 105, alvaro weyne
 
 ### Destination Place
-GET http://localhost:3000/places?text=rua dona mendinha, 2051, alvaro weyne
+GET http://localhost:3001/places?text=rua dona mendinha, 2051, alvaro weyne
 
 ###
 @originId = ChIJf4CIwCBKxwcR4oc9WHkCsQk
 @destinationId = ChIJlc33RCFKxwcRfiLkKgCqbmQ
 
-GET http://localhost:3000/directions?originId={{originId}}&destinationId={{destinationId}}
+GET http://localhost:3001/directions?originId={{originId}}&destinationId={{destinationId}}
 
 ###
 
-POST http://localhost:3000/routes
+POST http://localhost:3001/routes
 Content-Type: application/json
 
 {
@@ -22,7 +22,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3000/routes
+GET http://localhost:3001/routes
 
 ### 
-GET http://localhost:3000/routes/6759e20f972ae0daca87c44a
+GET http://localhost:3001/routes/6759e20f972ae0daca87c44a
